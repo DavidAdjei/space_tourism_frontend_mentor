@@ -11,7 +11,7 @@
 
   <style>
     body{
-      background-image: url(./assets/destination/background-destination-desktop.jpg);
+      background-image: url(./assets/technology/background-technology-desktop.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       padding-top: 0;
@@ -25,24 +25,37 @@
     .planet_desc .link{
       height: unset;
     }
-    @media screen and (max-width: 80rem) {
-      boby{
-        background-image: url(./assets/destination/background-destination-tablet.jpg);
-        padding-bottom: 2rem;
-        padding-top: 2rem;
-      }
+
+    .tech_image div{
+      background-image: url(./assets/technology/image-spaceport-portrait.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0dvw;
     }
 
-    @media screen and (max-width: 50rem){
+    @media screen and (max-width: 80rem) {
+      body{
+        background-image: url(./assets/technology/background-technology-tablet.jpg);
+        padding-top: 2rem;
+      }
+
+      .main{
+        flex-direction: column-reverse;
+      }
+
+      .tech_image div{
+          background-image: url(./assets/technology/image-spaceport-landscape.jpg);
+      }
+    }
+    
+    @media screen and (min-height: 62.5rem) {
     body{
-        background-image: url(./assets/destination/background-destination-mobile.jpg);
+      height: 100vh;
     }
   }
   </style>
 
 </head>
-
-
 <body>
   <nav>
     <div class="logo">
@@ -52,9 +65,9 @@
     <div class="links">
       <ul>
         <li><a href="./index.html">00 <span>Home</span></a></li>
-        <li><a class="border" href="./destination-mars.html">01 <span>Destination</span></a></li>
+        <li><a href="./destination-mars.html">01 <span>Destination</span></a></li>
         <li><a href="./crew-commander.html">02 <span>Crew</span></a></li>
-        <li><a href="./technology-vehicle.html">03 <span>Technology</span></a></li>
+        <li><a class="border" href="./technology-vehicle.html">03 <span>Technology</span></a></li>
       </ul>
     </div>
     <div>
@@ -74,39 +87,35 @@
     </div>
   </nav>
   <div class="heading">
-        <h3>01 <span>Pick your destination</span></h3>
-      </div>
+        <h3> 03 <span> Space launch 101</span></h3>
+  </div>
   <section class="main">
-    <div class="planet_image">
-      
+    <div class="tech_desc">
       <div>
-        <img src="./assets/destination/image-titan.png" alt="mars">
+        <p>The terminology...</p>
+      <h2>Spaceport</h2>
+      <p>A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, 
+        by analogy to the seaport for ships or airport for aircraft. Based in the 
+        famous Cape Canaveral, our spaceport is ideally situated to take advantage 
+        of the Earth’s rotation for launch. 
+      </p>
+      </div>
+      <div class="tech_nav">
+          <ul>
+            <li><a href="./technology-vehicle.html">1</a></li>
+            <li><a href="./technology-capsule.html">2</a></li>
+            <li><a class="tech_active" href="./technology-spaceport.html">3</a></li>
+          </ul>
       </div>
     </div>
-    <div class="planet_desc">
-      <div class="links">
-        <ul>
-          <li><a href="./destination-moon.html">Moon</a></li>
-          <li><a href="./destination-mars.html">Mars</a></li>
-          <li><a href="./destination-europa.html">Europa</a></li>
-          <li><a class="border" href="./destination-titan.html">Titan</a></li>
-        </ul>
+    <div class="tech_image">
+      <div>
+        <!-- <img src="./assets/technology/image-spaceport-portrait.jpg" alt="crew"> -->
       </div>
-      <div class="planet_info">
-        <h1>Titan</h1>
-        <p>
-          The only moon known to have a dense atmosphere other than Earth, Titan 
-          is a home away from home (just a few hundred degrees colder!). As a 
-          bonus, you get striking views of the Rings of Saturn.
-        </p>
-        <div class="planet_stats">
-          <p>Avg. distance<span>1.6 bil. km</span></p>
-          <p>Est. travel time<span>7 years</span></p>
-        </div>
-      </div>
-    </div>
-
+    </div>    
   </section>
-  <script src="../scripts.js"></script>
+  <script src="./scripts.js"></script>
 </body>
-</html>
+</html>  
+
+

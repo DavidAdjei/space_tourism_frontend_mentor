@@ -67,7 +67,6 @@ nav{
 .mobile_navs ul{
     display: flex;
     flex-direction: column;
-    gap: .5rem;
     justify-content: center;
     align-items: center;
 }
@@ -85,6 +84,7 @@ nav{
     color: black;
     font-size: 1.2rem;
     text-decoration: none;
+    padding: .5rem;
 }
 .mobile_navs span{
     color: #ccc;

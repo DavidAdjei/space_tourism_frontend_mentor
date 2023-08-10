@@ -25,10 +25,10 @@ Users should be able to:
 
 ### Screenshot
 
-![](./starter-code/Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_14_41%20PM.png)
-![](./starter-code/Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_16_30%20PM.png)
-![](./starter-code/Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_16_54%20PM.png)
-![](./starter-code/Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_17_09%20PM.png)
+![](./Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_14_41%20PM.png)
+![](./Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_16_30%20PM.png)
+![](./Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_16_54%20PM.png)
+![](./Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_17_09%20PM.png)
 
 ### Links
 

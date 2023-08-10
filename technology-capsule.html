@@ -11,11 +11,10 @@
 
   <style>
     body{
-      background-image: url(./assets/crew/background-crew-desktop.jpg);
+      background-image: url(./assets/technology/background-technology-desktop.jpg);
       background-size: cover;
       background-repeat: no-repeat;
-      /* padding-top: 4rem; */
-      padding-bottom: 0;
+      padding-top: 0;
       justify-content: space-around;
     }
 
@@ -26,24 +25,34 @@
     .planet_desc .link{
       height: unset;
     }
-    
-    @media screen and (max-height: 80rem) {
-      .main{
-        padding-bottom: 0;
+
+    .tech_image div{
+      background-image: url(./assets/technology/image-space-capsule-portrait.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: 0dvw;
+    }
+
+    @media screen and (max-width: 80rem) {
+      body{
+        background-image: url(./assets/technology/background-technology-tablet.jpg);
+        padding-top: 2rem;
       }
-      
-      .body{
-        padding-bottom: 0;
+
+      .main{
+        flex-direction: column-reverse;
+      }
+
+      .tech_image div{
+          background-image: url(./assets/technology/image-space-capsule-landscape.jpg);
       }
     }
 
-    @media screen and (max-width: 50rem){
-        .main{
-          flex-direction: column-reverse;
-          gap: 1rem;
-        }
-      
+    @media screen and (min-height: 62.5rem) {
+    body{
+      height: 100vh;
     }
+  }
   </style>
 
 </head>
@@ -57,8 +66,8 @@
       <ul>
         <li><a href="./index.html">00 <span>Home</span></a></li>
         <li><a href="./destination-mars.html">01 <span>Destination</span></a></li>
-        <li><a class="border" href="./crew-commander.html">02 <span>Crew</span></a></li>
-        <li><a href="./technology-vehicle.html">03 <span>Technology</span></a></li>
+        <li><a href="./crew-commander.html">02 <span>Crew</span></a></li>
+        <li><a class="border" href="./technology-vehicle.html">03 <span>Technology</span></a></li>
       </ul>
     </div>
     <div>
@@ -78,38 +87,34 @@
     </div>
   </nav>
   <div class="heading">
-        <h3>02 <span> Meet your crew</span></h3>
+        <h3> 03 <span> Space launch 101</span></h3>
   </div>
   <section class="main">
-    <div class="crew_desc">
-      <div class="for_mobile">
-        <h3 style="color: #747474;">Pilot</h3>
-      <h2>Victor Glover</h2>
+    <div class="tech_desc">
       <div>
-        <p>Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-        International Space Station. Glover is a commander in the U.S. Navy where 
-        he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-        station systems flight engineer.  
+        <p>The terminology...</p>
+      <h2>Space capsule</h2>
+      <p>A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+        capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+        you'll spend your time during the flight. It includes a space gym, cinema, 
+        and plenty of other activities to keep you entertained. 
       </p>
       </div>
-      
-      </div>
-      
-      <div class="crew_nav">
+      <div class="tech_nav">
           <ul>
-            <li><a href="./crew-commander.html"></a></li>
-            <li><a class="crew_active" href="./crew-pilot.html"></a></li>
-            <li><a href="./crew-specialist.html"></a></li>
-            <li><a href="./crew-engineer.html"></a></li>
+            <li><a href="./technology-vehicle.html">1</a></li>
+            <li><a class="tech_active" href="./technology-capsule.html">2</a></li>
+            <li><a href="./technology-spaceport.html">3</a></li>
           </ul>
       </div>
     </div>
-    <div class="crew_image">
+    <div class="tech_image">
       <div>
-        <img src="./assets/crew/image-victor-glover.webp" alt="crew">
+        <!-- <img src="./assets/technology/image-space-capsule-portrait.jpg" alt="crew"> -->
       </div>
     </div>    
   </section>
-  <script src="../scripts.js"></script>
+  <script src="./scripts.js"></script>
 </body>
-</html>
+</html>  
+        
