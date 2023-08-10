@@ -25,13 +25,15 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![](./starter-code/Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_14_41%20PM.png)
+![](./starter-code/Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_16_30%20PM.png)
+![](./starter-code/Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_16_54%20PM.png)
+![](./starter-code/Frontend%20Mentor%20_%20Space%20tourism%20website%20and%2010%20more%20pages%20-%20Personal%20-%20Microsoft​%20Edge%208_10_2023%203_17_09%20PM.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [frontendsolution](https://your-solution-url.com)
+- Live Site URL: [netlify deployment](https://space-tourism-frontend-mentor180181.netlify.app/)
 
 ## My process
 
@@ -50,12 +52,10 @@ Users should be able to:
 - Reactjs
 
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@DavidAdjei](https://www.frontendmentor.io/profile/DavidAdjei)
+- Twitter - [@nharnahadjei2](https://twitter.com/nharnahadjei2)
+- LinkedIn - [@David Adjei](https://www.linkedin.com/in/david-adjei-313a811a2/)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
